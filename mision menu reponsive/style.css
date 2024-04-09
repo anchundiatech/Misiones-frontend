@@ -1,0 +1,31 @@
+.menu{
+    background: #a435f0;
+    padding: 10px;
+}
+
+.menu__container{
+    display: flex;
+    justify-content: space-between;
+    list-style: none ;
+}
+
+.menu__container a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.menu__link:hover {
+    text-decoration: underline;
+  }
+
+  @media (max-width: 390px) {
+    .menu__container {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    li {
+      padding: 8px 16px;
+    }
+  }
